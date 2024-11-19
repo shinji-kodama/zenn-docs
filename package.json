@@ -1,0 +1,18 @@
+{
+  "name": "zenn_docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new": "zenn new:$npm_config_type --slug=$(date +%Y%m%d_%H%M%S)_$npm_config_slug --title=$npm_config_title --machine-readable",
+    "new:a": "npm run new --type=article",
+    "new:b": "npm run new --type=book"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "zenn-cli": "^0.1.158"
+  }
+}
