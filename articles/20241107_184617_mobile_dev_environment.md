@@ -203,28 +203,3 @@ Nginx Proxy ManagerからACCESS制御も可能
 
 
 
-<!-- 
-
-### 案
-今回、荷物を少なくするためにちょっと考えて出てきた案は以下の通り
-
-- [GitHub Codespaces](https://docs.github.com/ja/codespaces/overview)
-- [github.dev Web ベース エディター](https://docs.github.com/ja/codespaces/the-githubdev-web-based-editor)
-- 開発機をRemote Desktopで操作
-- 開発機のVSCodeで起動したVSCode ServerにHTTP接続
-  - Remote tunnel（vscode.devから安全なトンネルを通して開発機に接続）
-  - Serve-web (ブラウザからLANやVPNを使用して開発機に直接HTTP接続)
-- ssh接続で操作
-- AndroidにVSCodeを入れる
-
-
-### 絞り込み
-全部を試して比較したい気もするが、記事にすると分量が増えるので、今回は軽く調べたり触った感覚で絞り込んだ。また、前提としてスマートフォンから外部出力して全画面でVSCodeを開けたほうが作業環境としては望ましいため
-
-- Codespacesは無料枠があるとはいえ、そこそこのスペックを求めると割とすぐに使い切ってしまいそう
-- github.devはターミナルや一部の拡張機能が使えない
-- Remote desktopはAndroidスマホからMac miniを覗きに行くと大変重い & キーボードレイアウトが何故かUS固定・高頻度リセットされる
-- ssh接続についてはスマホからのVSCode Serverへのssh接続が無理。モバイル用にミニPCを購入するのも今回は違う気がする
-- AndroidにVSCodeを入れるクライアントにVSCodeがあればええんやな！とモバイル用にミニPCを購入するのも今回は違う気がするので除外
-
-ということで、今回はVSCode ServerにHTTP接続する方向で考えてみた -->
