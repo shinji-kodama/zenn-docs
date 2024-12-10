@@ -1,5 +1,5 @@
 ---
-title: "外出時にスマホで快適にコーディングする"
+title: "PCを持ち歩かず、外出時にスマホで快適にコーディングする"
 emoji: "👋"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vscode", "vscodeserver", "nginxproxymanager"]
