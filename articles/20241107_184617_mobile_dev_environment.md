@@ -2,7 +2,7 @@
 title: "PCを持ち歩かず、外出時にスマホで快適にコーディングする"
 emoji: "👋"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["vscode", "vscodeserver", "nginxproxymanager"]
+topics: ["vscode", "vscodeserver", "android", "nginx", "proxy"]
 published: true
 ---
 
