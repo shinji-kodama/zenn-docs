@@ -386,7 +386,7 @@ VSCode Serverの設定は完了したので、ここからはスマートフォ�
 - デスクトップモードに強制的に切り替え（必須）
 - フリーフォームウィンドウの有効化（推奨。アプリをウィンドウで表示できるようになる）
 
-![alt text](/images/image_dev_option.png)
+![alt text](/images/image_dev_option.png =300x)
 
 ### 外部モニタに繋いでみる
 
